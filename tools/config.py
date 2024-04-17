@@ -1,7 +1,7 @@
 import os
 import datetime
 
-ROOT_PATH = "/atlas2/u/XXXX-2"
+ROOT_PATH = "../"
 
 
 # Adding text labels to images in these datasets
@@ -9,7 +9,7 @@ class Config_Resnet:
     def __init__(self):
         # paths
         self.working_dir = os.path.join(ROOT_PATH, "harvest-piles")
-        self.dataset_path = os.path.join(ROOT_PATH, "datasets")
+        self.dataset_path = os.path.join(ROOT_PATH, "dataset")
 
         self.wandb_project = "harvest-piles"
         self.wandb_group = "resnet50"
