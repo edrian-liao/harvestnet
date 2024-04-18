@@ -1,7 +1,7 @@
 import os
 import datetime
 
-ROOT_PATH = "../"
+ROOT_PATH = ""
 
 
 # Adding text labels to images in these datasets
